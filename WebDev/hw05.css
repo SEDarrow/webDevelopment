@@ -1,0 +1,61 @@
+
+header {
+	text-align: center;
+}
+form {
+	position: absolute;
+	top: 100px;
+	width: 98%;
+}
+
+#first {
+	position: absolute;
+	left: 10%;
+	width: 20%;
+}
+
+#first p {
+	text-align: right;
+}
+
+#second {
+	position: absolute;
+	left: 40%;
+	width: 20%;
+}
+
+#third {
+	position: absolute;
+	left: 70%;
+	width: 20%;
+}
+
+#topping {
+	position: absolute;
+	top: 0px;
+	width: 60%;
+}
+
+#cost {
+	position: absolute;
+	top: 0px;
+	left: 60%;
+	width: 40%;
+}
+
+#cost p {
+	line-height: 125%;
+	margin-top: 10px;
+}
+
+#cost h3 {
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}

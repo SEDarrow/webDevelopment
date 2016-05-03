@@ -1,0 +1,60 @@
+body { 
+    background-color: rgb(10, 10, 30); 
+    margin: 10px; 
+} 
+
+h1 { 
+    font-size: 45px; 
+    text-align: center; 
+    color: rgb(150, 150, 170); 
+    margin: 8px; 
+} 
+
+p { 
+    font-size: 25px; 
+    color: rgb(160, 160, 180); 
+} 
+
+a { 
+    text-decoration: none; 
+    color: rgb(150, 150, 170); 
+} 
+
+nav { 
+    text-align: center; 
+    border-width: 7px; 
+    border-color: rgb(150, 150, 170); 
+    border-style: solid; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+
+nav:hover { 
+    background-color: rgb(30, 30, 60); 
+} 
+
+article { 
+    border-width: 7px; 
+    border-color: rgb(150, 150, 170); 
+    border-style: solid; 
+    padding: 10px; 
+    margin: 10px; 
+} 
+
+article:hover { 
+    background-color: rgb(30, 30, 60); 
+} 
+
+a:hover { 
+    text-decoration: underline; 
+} 
+
+header h1 { 
+    font-size: 55px; 
+    color:  rgb(150, 150, 170); 
+    text-align: center; 
+} 
+
+header h1:hover { 
+    color: rgb(190, 190, 210); 
+}

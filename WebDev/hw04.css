@@ -1,0 +1,32 @@
+
+form {
+	position: absolute;
+	top: 170px;
+	width: 98%;
+}
+
+#first {
+	position: absolute;
+	left: 10%;
+	width: 20%;
+}
+
+#first p {
+	text-align: left;
+}
+
+#exams {
+	position: absolute;
+	left: 40%;
+	width: 20%;
+}
+
+#homework {
+	position: absolute;
+	left: 70%;
+	width: 20%;
+}
+
+h1 {
+	text-align: center;
+}

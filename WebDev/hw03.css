@@ -1,0 +1,88 @@
+form{  
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-around; 
+	display: -webkit-flex; 
+    -webkit-flex-direction: column; 
+    -webkit-justify-content: space-around;
+	padding: 10px;
+	border-color: gray;
+	border-width: 3px;
+	border-style: solid;
+}  
+
+h1 {  
+    font-size: 40px;  
+    text-align: center;  
+}  
+
+h2 {  
+    font-size: 25px;  
+}  
+
+#comment { 
+    width: 55%; 
+    height: 150px; 
+} 
+
+#btns { 
+    text-align: left; 
+} 
+
+#satisfaction {
+	height: 170px;
+}
+
+.inputs { 
+    display: flex; 
+	display: -webkit-flex;
+    flex-direction: row; 
+    justify-content: center;
+	-webkit-flex-direction: row; 
+    -webkit-justify-content: center; 
+	margin: 5px;
+} 
+
+.col {
+	display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+	display: -webkit-flex; 
+    -webkit-flex-direction: column; 
+    -webkit-justify-content: space-between; 
+}
+
+.item { 
+    text-align: center; 
+    margin: 5px 25px; 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: gray; 
+    padding: 10px 5px; 
+}
+
+#words {
+	position: absolute;
+	left: 17%;
+	width: 40%;
+	top: 2%;
+	height: 100px;
+}
+
+img {
+	position: absolute;
+	left: 65%;
+	top: 2%;
+	width: 15%;
+}
+
+.thanks {
+	position: relative;
+}
+
+#info {
+	position: absolute;
+	top: 240px;
+	width: 60%;
+	left: 18%;
+}

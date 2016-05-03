@@ -1,0 +1,36 @@
+#input {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	width: 43%;
+}
+
+table {
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+	border-color: black;
+	width: 45%;
+	
+	text-align: center;
+	margin: 20px 10px;
+	
+}
+
+table td, th {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+table th {
+	background-color: rgb(40, 40, 40);
+	color: white;
+}
+
+table tr:nth-child(even) {
+	background-color: white;
+}
+table tr:nth-child(odd) {
+	background-color: gray;
+}

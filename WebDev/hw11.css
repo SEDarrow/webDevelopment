@@ -1,0 +1,33 @@
+#input {
+	display: inline-flex;
+	background-color: rgb(200, 200, 200);
+	border-radius: 3%;
+	box-shadow: 5px 5px 2px gray;
+	width: 45%;
+	margin-top: 0px;
+	position: absolute;
+	top: 0px;
+}
+
+form {
+	margin: 30px;
+}
+
+li {
+	font-size: 30px;
+}
+
+#output {
+	display: inline-flex;
+	background-color: gray;
+	border-radius: 3%;
+	background-color: rgb(200, 200, 200);
+	box-shadow: 5px 5px 2px gray;
+	width: 45%;
+	min-height: 20%;
+	margin-top: 0px;
+	position: absolute;
+	left: 47%;	
+}
+
+

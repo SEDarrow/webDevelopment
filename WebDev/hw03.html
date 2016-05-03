@@ -1,0 +1,57 @@
+<!doctype html>   
+<meta http-equiv="cache-control" content="no-cache">   
+<meta http-equiv="expires" content="0">   
+<html lang="en">   
+    <head>  
+        <title></title>  
+        <link rel="stylesheet" href="hw03.css">  
+    </head>  
+      
+    <body>     
+        <form method="post" action="hw03.php">  
+			<h1>Homework 3 - Product Feedback</h1>  
+            <div class="inputs"> 
+			
+				<div class="col"> 
+					<div class="item">
+						<h2>Product Name: 
+						<input type="text" name="item" size="20"/> </h2>  
+					</div>
+				
+					<div class="item">
+						<h2>Purchase Location: 
+						<select name="location">  
+							<option value="Online">Online</option>  
+							<option value="Store">In Store</option>  
+							<option value="Catalog">Catalog</option> 
+						</select> </h2> 
+					</div>
+				</div> 
+             
+				<div class="col"> 
+					<div class="item" id="satisfaction">
+						<h2>Satisfaction Level:</h2>  
+						<p id="btns">  
+							<input type="radio" name="satisfaction" value="Happy"> Happy With Product<br/>   
+							<input type="radio" name="satisfaction" value="Okay"> Product Okay<br/> 
+							<input type="radio" name="satisfaction" value="Unhappy"> Unhappy With Product<br/> 
+						</p>  
+					</div>
+				</div> 
+            </div> 
+             
+			<div class="inputs">
+				<h2>Comments:</h2>
+			</div>
+			
+			<div class="inputs">  
+				<input id="comment" type="text" name="comment" size="500"/>  
+			</div>
+            
+			<div class="inputs">
+				<input type="submit" name="submit" value="Submit Feedback"/>  
+			</div>
+        </form>  
+              
+    </body>  
+</html> 
